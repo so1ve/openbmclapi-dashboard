@@ -1,0 +1,61 @@
+html,
+.Vue-Toastification__toast {
+	font-family:
+		"Fira Code",
+		"Noto Serif SC",
+		ui-sans-serif,
+		"ui-sans-serif override",
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		"Segoe UI",
+		Roboto,
+		"Helvetica Neue",
+		Arial,
+		"Noto Sans",
+		sans-serif,
+		"Apple Color Emoji",
+		"Segoe UI Emoji",
+		"Segoe UI Symbol",
+		"Noto Color Emoji" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300 !important;
+	margin: 0;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 44px;
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+h6 {
+	font-size: 16px;
+	line-height: 22px;
+}
