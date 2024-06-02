@@ -44,6 +44,9 @@ importers:
       vuetify:
         specifier: ^3.6.8
         version: 3.6.8(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue-i18n@9.13.1(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5))
+      vuetify-sonner:
+        specifier: ^0.3.19
+        version: 0.3.19(vue@3.4.27(typescript@5.4.5))(vuetify@3.6.8(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue-i18n@9.13.1(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5)))
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.1.34
@@ -3768,6 +3771,9 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
+  vue-sonner@1.1.2:
+    resolution: {integrity: sha512-yg4f5s0a3oiiI7cNvO0Dajux1Y7s04lxww3vnQtnwQawJ3KqaKA9RIRMdI9wGTosRGIOwgYFniFRGl4+IuKPZw==}
+
   vue-template-compiler@2.7.16:
     resolution: {integrity: sha512-AYbUWAJHLGGQM7+cNTELw+KsOG9nl2CnSv467WobS5Cv9uk3wFcnr1Etsz2sEIHEZvw1U+o9mRlEO6QbZvUPGQ==}
 
@@ -3784,6 +3790,12 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+
+  vuetify-sonner@0.3.19:
+    resolution: {integrity: sha512-Fn13UyP0Lzh9B10doHX8friWGgj0+dkRXd2fysLhtako/qEBY9nvwqKIUmGM0cUdjAUxioj7EcGod3l5qVPJVg==}
+    peerDependencies:
+      vue: ^3.3.0
+      vuetify: ^3.3.0
 
   vuetify@3.6.8:
     resolution: {integrity: sha512-j0v0iTeSVRj2ZEM9Q8HxejHxmxrQLYQSalhH82hfcraORaiDoqf1XV05N3P5ERXkKiJjJc/LfxFAUUvYSldxeg==}
@@ -8472,6 +8484,8 @@ snapshots:
       '@vue/devtools-api': 6.6.2
       vue: 3.4.27(typescript@5.4.5)
 
+  vue-sonner@1.1.2: {}
+
   vue-template-compiler@2.7.16:
     dependencies:
       de-indent: 1.0.2
@@ -8493,6 +8507,12 @@ snapshots:
       '@vue/shared': 3.4.27
     optionalDependencies:
       typescript: 5.4.5
+
+  vuetify-sonner@0.3.19(vue@3.4.27(typescript@5.4.5))(vuetify@3.6.8(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue-i18n@9.13.1(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5))):
+    dependencies:
+      vue: 3.4.27(typescript@5.4.5)
+      vue-sonner: 1.1.2
+      vuetify: 3.6.8(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue-i18n@9.13.1(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5))
 
   vuetify@3.6.8(typescript@5.4.5)(vite-plugin-vuetify@2.0.3)(vue-i18n@9.13.1(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5)):
     dependencies:

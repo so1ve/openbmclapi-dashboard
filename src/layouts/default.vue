@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { VSonner } from "vuetify-sonner";
+
+import "vuetify-sonner/style.css";
+</script>
+
 <template>
 	<VApp>
 		<VLayout bg="#f0f2f5">
@@ -7,5 +13,6 @@
 				<RouterView />
 			</VMain>
 		</VLayout>
+		<VSonner />
 	</VApp>
 </template>
