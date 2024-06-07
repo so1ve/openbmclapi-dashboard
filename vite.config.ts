@@ -41,14 +41,15 @@ export default defineConfig({
 				"vue-router",
 				"vue-i18n",
 				{
-					"vue-toastification": ["useToast"],
+					vuetify: ["useDate", "useDisplay", "useGoTo", "useRtl", "useTheme"],
+					"vuetify-sonner": ["toast"],
 				},
 			],
 			dirs: ["./src/composables/**", "./src/stores/**"],
 			vueTemplate: true,
 		}),
 		I18n({
-			runtimeOnly: true,
+			// runtimeOnly: true,
 			compositionOnly: true,
 			fullInstall: true,
 			include: resolve(

@@ -1,0 +1,7 @@
+pages:
+  clusters:
+    label: 节点列表
+
+not-found:
+  not-found: 页面消失力 :(
+  back: 返回上一页

@@ -1,7 +1,7 @@
 {
-	"name": "dolan-admin",
-	"version": "0.0.0",
+	"private": true,
 	"packageManager": "pnpm@9.1.4",
+	"type": "module",
 	"scripts": {
 		"build": "vite build",
 		"dev": "vite",

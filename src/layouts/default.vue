@@ -12,7 +12,7 @@ import "vuetify-sonner/style.css";
 			<VMain m="8" max-w="[calc(100vw_-_64px)]">
 				<RouterView />
 			</VMain>
+			<VSonner expand position="top-right" />
 		</VLayout>
-		<VSonner />
 	</VApp>
 </template>

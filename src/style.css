@@ -1,5 +1,5 @@
 html,
-.Vue-Toastification__toast {
+[data-sonner-toaster] {
 	font-family:
 		"Fira Code",
 		"Noto Serif SC",

@@ -1,0 +1,7 @@
+pages:
+  clusters:
+    label: Clusters
+
+not-found:
+  not-found: Page Not found :(
+  back: Back
