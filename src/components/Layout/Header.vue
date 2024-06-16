@@ -18,7 +18,6 @@ function switchLang(name: keyof typeof locales) {
 		<VToolbarTitle>
 			<RouterLink to="/">OpenBMCLAPI Dashboard</RouterLink>
 		</VToolbarTitle>
-		<VSpacer />
 		<VMenu :close-on-content-click="false" open-on-hover>
 			<template #activator="{ props }">
 				<VBtn icon="mdi-translate" variant="text" v-bind="props" />

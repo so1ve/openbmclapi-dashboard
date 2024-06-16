@@ -7,9 +7,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    Header: (typeof import("./components/Layout/Header.vue"))["default"]
+    HelloWorld: (typeof import("./components/HelloWorld.vue"))["default"]
     LayoutDrawer: typeof import('./components/Layout/Drawer.vue')['default']
     LayoutHeader: typeof import('./components/Layout/Header.vue')['default']
+    LayoutLoading: (typeof import("./components/Layout/Loading.vue"))["default"]
     Loading: typeof import('./components/Loading.vue')['default']
+    MilkdownEditor: (typeof import("./components/MilkdownEditor.vue"))["default"]
+    MonacoEditor: (typeof import("./components/MonacoEditor.vue"))["default"]
+    NoContent: (typeof import("./components/NoContent.vue"))["default"]
+    PostsStatus: (typeof import("./components/Posts/Status.vue"))["default"]
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

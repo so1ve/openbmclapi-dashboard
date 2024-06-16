@@ -1,6 +1,8 @@
 pages:
   clusters:
     label: 节点列表
+    cluster-name: 节点名称
+    cluster-id: 节点 ID
 
 not-found:
   not-found: 页面消失力 :(

@@ -1,5 +1,6 @@
 export const useAppStore = defineStore("app", () => {
-	const showDrawer = ref(false);
+	const { mobile } = useDisplay();
+	const showDrawer = ref(!mobile.value);
 	function toggleDrawer() {
 		showDrawer.value = !showDrawer.value;
 	}

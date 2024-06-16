@@ -1,6 +1,8 @@
 pages:
   clusters:
     label: Clusters
+    cluster-name: Cluster Name
+    cluster-id: Cluster ID
 
 not-found:
   not-found: Page Not found :(
