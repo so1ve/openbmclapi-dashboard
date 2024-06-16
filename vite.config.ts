@@ -41,7 +41,7 @@ export default defineConfig({
 				"vue-router",
 				"vue-i18n",
 				{
-					vuetify: ["useDate", "useDisplay", "useGoTo", "useRtl", "useTheme"],
+					"vuetify": ["useDate", "useDisplay", "useGoTo", "useRtl", "useTheme"],
 					"vuetify-sonner": ["toast"],
 				},
 			],
