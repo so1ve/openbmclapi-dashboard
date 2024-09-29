@@ -101,7 +101,7 @@ importers:
         version: 0.27.4(@babel/parser@7.25.6)(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
       unplugin-vue-macros:
         specifier: ^2.9.3
-        version: 2.12.2(@vueuse/core@10.11.1(vue@3.5.10(typescript@5.6.2)))(esbuild@0.23.1)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8(@types/node@20.16.10))(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))
+        version: 2.12.3(@vueuse/core@10.11.1(vue@3.5.10(typescript@5.6.2)))(esbuild@0.23.1)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8(@types/node@20.16.10))(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))
       vite:
         specifier: ^5.2.12
         version: 5.4.8(@types/node@20.16.10)
@@ -745,6 +745,15 @@ packages:
       rollup:
         optional: true
 
+  '@rollup/pluginutils@5.1.2':
+    resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+
   '@rollup/rollup-android-arm-eabi@4.22.4':
     resolution: {integrity: sha512-Fxamp4aEZnfPOcGA8KSNEohV8hX7zVHOemC8jVBoBUHu5zpJK/Eu3uJwt6BMgy9fkvzxDaurgj96F/NiLukF2w==}
     cpu: [arm]
@@ -1331,8 +1340,8 @@ packages:
     resolution: {integrity: sha512-DT/6ZWe90/qrFtgicKCRljdvcwM25Nk66lPF9UFydwOFHKa6yOwTdeexjU3W/uG8X4QLlQBTCsDKbjLbhK1i7g==}
     engines: {node: '>=16.14.0'}
 
-  '@vue-macros/volar@0.30.2':
-    resolution: {integrity: sha512-iBARxF4M76ZRKSximB+s9l3FBJEKZ7fQnfoexr1rQe7j+oDgSdTODpK5184c1uboZrkPcM8F77wM1yNV3rqDaA==}
+  '@vue-macros/volar@0.30.3':
+    resolution: {integrity: sha512-35ecwiHaKizySmEIsSHIdyBpf0AgP9wZkUJUIO4xq9lAlSXHkTMjELuwVCRFCCyjZS/UuB+rPqxguKiSaNKmGg==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue-tsc: 2.1.6
@@ -1466,8 +1475,8 @@ packages:
     resolution: {integrity: sha512-HGyxoOTYUyCM6stUe6EJgnd4EoewAI7zMdfqO+kGjnlZmBDz/cR5pf8r/cR4Wq60sL/p0IkcjUEEPwS3GFrIyw==}
     engines: {node: '>=8'}
 
-  ast-kit@1.2.0:
-    resolution: {integrity: sha512-7TnogTQQZEagrHcOcddY0PqXPxVqFoNPPsKoa42Peyc83iinzT+QPKoRLDmzpaUVWZbgqSoHtezsTIoJyyBE+Q==}
+  ast-kit@1.2.1:
+    resolution: {integrity: sha512-h31wotR7rkFLrlmGPn0kGqOZ/n5EQFvp7dBs400chpHDhHc8BK3gpvyHDluRujuGgeoTAv3dSIMz9BI3JxAWyQ==}
     engines: {node: '>=16.14.0'}
 
   ast-walker-scope@0.6.2:
@@ -3372,8 +3381,8 @@ packages:
     resolution: {integrity: sha512-Ss+sHK0D98UPrzrJ1Bh7QmZtdymvGn7IVniB/Y1vsWQiKNOznjN8XLo228AfaHSFuIfx5x7wuNDqKTL5xBqhgw==}
     engines: {node: '>=16.14.0'}
 
-  unplugin-vue-macros@2.12.2:
-    resolution: {integrity: sha512-qmhbI/o7wtRzdxQQIUBrTIPXUT3l+1sbg8TFfXzTo9IDtRhVUPhhegALyQUIUPx8Wf75fcaeWEKd5F9LVAPBNQ==}
+  unplugin-vue-macros@2.12.3:
+    resolution: {integrity: sha512-qzCMjgdN66amHYHb6IqXESeKOZfL058yoNyaOqhtLS98Xz1VU5C4q3Gsry0GHkkkVXfe2ckfvpP4u9CzWCUhGw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -4201,6 +4210,14 @@ snapshots:
     optionalDependencies:
       rollup: 4.22.4
 
+  '@rollup/pluginutils@5.1.2(rollup@4.22.4)':
+    dependencies:
+      '@types/estree': 1.0.6
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+    optionalDependencies:
+      rollup: 4.22.4
+
   '@rollup/rollup-android-arm-eabi@4.22.4':
     optional: true
 
@@ -4853,9 +4870,9 @@ snapshots:
   '@vue-macros/common@1.14.0(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))':
     dependencies:
       '@babel/types': 7.25.6
-      '@rollup/pluginutils': 5.1.1(rollup@4.22.4)
+      '@rollup/pluginutils': 5.1.2(rollup@4.22.4)
       '@vue/compiler-sfc': 3.5.10
-      ast-kit: 1.2.0
+      ast-kit: 1.2.1
       local-pkg: 0.5.0
       magic-string-ast: 0.6.2
     optionalDependencies:
@@ -5083,7 +5100,7 @@ snapshots:
       - rollup
       - vue
 
-  '@vue-macros/volar@0.30.2(rollup@4.22.4)(typescript@5.6.2)(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))':
+  '@vue-macros/volar@0.30.3(rollup@4.22.4)(typescript@5.6.2)(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))':
     dependencies:
       '@vue-macros/boolean-prop': 0.5.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
       '@vue-macros/common': 1.14.0(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
@@ -5277,7 +5294,7 @@ snapshots:
 
   array-union@2.1.0: {}
 
-  ast-kit@1.2.0:
+  ast-kit@1.2.1:
     dependencies:
       '@babel/parser': 7.25.6
       pathe: 1.1.2
@@ -5285,7 +5302,7 @@ snapshots:
   ast-walker-scope@0.6.2:
     dependencies:
       '@babel/parser': 7.25.6
-      ast-kit: 1.2.0
+      ast-kit: 1.2.1
 
   asynckit@0.4.0: {}
 
@@ -7543,7 +7560,7 @@ snapshots:
       - vue
       - webpack-sources
 
-  unplugin-vue-macros@2.12.2(@vueuse/core@10.11.1(vue@3.5.10(typescript@5.6.2)))(esbuild@0.23.1)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8(@types/node@20.16.10))(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2)):
+  unplugin-vue-macros@2.12.3(@vueuse/core@10.11.1(vue@3.5.10(typescript@5.6.2)))(esbuild@0.23.1)(rollup@4.22.4)(typescript@5.6.2)(vite@5.4.8(@types/node@20.16.10))(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2)):
     dependencies:
       '@vue-macros/better-define': 1.9.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
       '@vue-macros/boolean-prop': 0.5.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
@@ -7572,7 +7589,7 @@ snapshots:
       '@vue-macros/short-bind': 1.1.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
       '@vue-macros/short-emits': 1.6.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
       '@vue-macros/short-vmodel': 1.5.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
-      '@vue-macros/volar': 0.30.2(rollup@4.22.4)(typescript@5.6.2)(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))
+      '@vue-macros/volar': 0.30.3(rollup@4.22.4)(typescript@5.6.2)(vue-tsc@2.1.6(typescript@5.6.2))(vue@3.5.10(typescript@5.6.2))
       unplugin: 1.14.1
       unplugin-combine: 1.0.3(esbuild@0.23.1)(rollup@4.22.4)(vite@5.4.8(@types/node@20.16.10))
       unplugin-vue-define-options: 1.5.1(rollup@4.22.4)(vue@3.5.10(typescript@5.6.2))
