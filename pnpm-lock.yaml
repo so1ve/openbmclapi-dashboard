@@ -43,10 +43,10 @@ importers:
         version: 4.4.5(vue@3.5.12(typescript@5.6.3))
       vuetify:
         specifier: ^3.6.8
-        version: 3.7.3(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
+        version: 3.7.4(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
       vuetify-sonner:
         specifier: ^0.3.19
-        version: 0.3.20(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3)
+        version: 0.3.20(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4)
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.1.34
@@ -113,7 +113,7 @@ importers:
         version: 0.11.0(vite@5.4.10(@types/node@20.17.6))(vue-router@4.4.5(vue@3.5.12(typescript@5.6.3)))(vue@3.5.12(typescript@5.6.3))
       vite-plugin-vuetify:
         specifier: ^2.0.3
-        version: 2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3)
+        version: 2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4)
       vite-plugin-webfont-dl:
         specifier: ^3.9.4
         version: 3.9.5(vite@5.4.10(@types/node@20.17.6))
@@ -3590,8 +3590,8 @@ packages:
       vue: ^3.3.0
       vuetify: ^3.3.0
 
-  vuetify@3.7.3:
-    resolution: {integrity: sha512-bpuvBpZl1/+nLlXDgdVXekvMNR6W/ciaoa8CYlpeAzAARbY8zUFSoBq05JlLhkIHI58AnzKVy4c09d0OtfYAPg==}
+  vuetify@3.7.4:
+    resolution: {integrity: sha512-Y8UU5wUDQXC3oz2uumPb8IOdvB4XMCxtxnmqdOc+LihNuPlkSgxIwf92ndRzbOtJFKHsggFUxpyLqpQp+A+5kg==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
@@ -5299,11 +5299,11 @@ snapshots:
 
   '@vue/shared@3.5.12': {}
 
-  '@vuetify/loader-shared@2.0.3(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3)':
+  '@vuetify/loader-shared@2.0.3(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4)':
     dependencies:
       upath: 2.0.1
       vue: 3.5.12(typescript@5.6.3)
-      vuetify: 3.7.3(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
+      vuetify: 3.7.4(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
 
   '@vueuse/core@10.11.1(vue@3.5.12(typescript@5.6.3))':
     dependencies:
@@ -7761,14 +7761,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vuetify@2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3):
+  vite-plugin-vuetify@2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4):
     dependencies:
-      '@vuetify/loader-shared': 2.0.3(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3)
+      '@vuetify/loader-shared': 2.0.3(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4)
       debug: 4.3.7
       upath: 2.0.1
       vite: 5.4.10(@types/node@20.17.6)
       vue: 3.5.12(typescript@5.6.3)
-      vuetify: 3.7.3(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
+      vuetify: 3.7.4(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
     transitivePeerDependencies:
       - supports-color
 
@@ -7841,18 +7841,18 @@ snapshots:
     optionalDependencies:
       typescript: 5.6.3
 
-  vuetify-sonner@0.3.20(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3):
+  vuetify-sonner@0.3.20(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4):
     dependencies:
       vue: 3.5.12(typescript@5.6.3)
       vue-sonner: 1.2.5
-      vuetify: 3.7.3(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
+      vuetify: 3.7.4(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3))
 
-  vuetify@3.7.3(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3)):
+  vuetify@3.7.4(typescript@5.6.3)(vite-plugin-vuetify@2.0.4)(vue@3.5.12(typescript@5.6.3)):
     dependencies:
       vue: 3.5.12(typescript@5.6.3)
     optionalDependencies:
       typescript: 5.6.3
-      vite-plugin-vuetify: 2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.3)
+      vite-plugin-vuetify: 2.0.4(vite@5.4.10(@types/node@20.17.6))(vue@3.5.12(typescript@5.6.3))(vuetify@3.7.4)
 
   walk-up-path@3.0.1: {}
 
