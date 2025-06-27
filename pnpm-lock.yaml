@@ -59,10 +59,10 @@ importers:
         version: 4.0.0(rollup@4.44.0)(vue-i18n@9.14.4(vue@3.5.17(typescript@5.8.3)))
       '@so1ve/eslint-config':
         specifier: ^3.1.0
-        version: 3.5.2(@typescript-eslint/eslint-plugin@8.35.0(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint@9.29.0(jiti@2.4.2))(prettier@3.6.1)(typescript@5.8.3)
+        version: 3.5.2(@typescript-eslint/eslint-plugin@8.35.0(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint@9.29.0(jiti@2.4.2))(prettier@3.6.2)(typescript@5.8.3)
       '@so1ve/prettier-config':
         specifier: ^3.1.0
-        version: 3.5.2(prettier@3.6.1)
+        version: 3.5.2(prettier@3.6.2)
       '@types/node':
         specifier: ^20.13.0
         version: 20.19.1
@@ -86,7 +86,7 @@ importers:
         version: 0.5.0
       prettier:
         specifier: ^3.3.0
-        version: 3.6.1
+        version: 3.6.2
       typescript:
         specifier: ^5.4.5
         version: 5.8.3
@@ -2980,8 +2980,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.6.1:
-    resolution: {integrity: sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==}
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4388,7 +4388,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.0':
     optional: true
 
-  '@so1ve/eslint-config@3.5.2(@typescript-eslint/eslint-plugin@8.35.0(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint@9.29.0(jiti@2.4.2))(prettier@3.6.1)(typescript@5.8.3)':
+  '@so1ve/eslint-config@3.5.2(@typescript-eslint/eslint-plugin@8.35.0(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/parser@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(@typescript-eslint/utils@8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3))(eslint-import-resolver-node@0.3.9)(eslint@9.29.0(jiti@2.4.2))(prettier@3.6.2)(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.29.0(jiti@2.4.2))
       '@html-eslint/eslint-plugin': 0.42.0(eslint@9.29.0(jiti@2.4.2))
@@ -4426,7 +4426,7 @@ snapshots:
       globals: 16.2.0
       jsonc-eslint-parser: 2.4.0
       local-pkg: 1.1.1
-      prettier: 3.6.1
+      prettier: 3.6.2
       toml-eslint-parser: 0.10.0
       typescript-eslint: 8.35.0(eslint@9.29.0(jiti@2.4.2))(typescript@5.8.3)
       vue-eslint-parser: 10.1.4(eslint@9.29.0(jiti@2.4.2))
@@ -4459,16 +4459,16 @@ snapshots:
       - supports-color
       - typescript
 
-  '@so1ve/prettier-config@3.5.2(prettier@3.6.1)':
+  '@so1ve/prettier-config@3.5.2(prettier@3.6.2)':
     dependencies:
-      '@so1ve/prettier-plugin-toml': 3.5.2(prettier@3.6.1)
-      prettier: 3.6.1
+      '@so1ve/prettier-plugin-toml': 3.5.2(prettier@3.6.2)
+      prettier: 3.6.2
       prettier-plugin-astro: 0.14.1
-      prettier-plugin-pkgsort: 0.2.1(prettier@3.6.1)
+      prettier-plugin-pkgsort: 0.2.1(prettier@3.6.2)
 
-  '@so1ve/prettier-plugin-toml@3.5.2(prettier@3.6.1)':
+  '@so1ve/prettier-plugin-toml@3.5.2(prettier@3.6.2)':
     dependencies:
-      prettier: 3.6.1
+      prettier: 3.6.2
 
   '@stylistic/eslint-plugin@5.0.0(eslint@9.29.0(jiti@2.4.2))':
     dependencies:
@@ -7057,15 +7057,15 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.12.2
-      prettier: 3.6.1
+      prettier: 3.6.2
       sass-formatter: 0.7.9
 
-  prettier-plugin-pkgsort@0.2.1(prettier@3.6.1):
+  prettier-plugin-pkgsort@0.2.1(prettier@3.6.2):
     dependencies:
-      prettier: 3.6.1
+      prettier: 3.6.2
       prettier-package-json: 2.8.0
 
-  prettier@3.6.1: {}
+  prettier@3.6.2: {}
 
   proc-log@4.2.0: {}
 
