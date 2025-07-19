@@ -43,10 +43,10 @@ importers:
         version: 4.5.1(vue@3.5.17(typescript@5.8.3))
       vuetify:
         specifier: ^3.6.8
-        version: 3.9.1(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
+        version: 3.9.2(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
       vuetify-sonner:
         specifier: ^0.3.19
-        version: 0.3.21(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1)
+        version: 0.3.21(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2)
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.1.34
@@ -113,10 +113,10 @@ importers:
         version: 0.11.0(vite@5.4.19(@types/node@20.19.8))(vue-router@4.5.1(vue@3.5.17(typescript@5.8.3)))(vue@3.5.17(typescript@5.8.3))
       vite-plugin-vuetify:
         specifier: ^2.0.3
-        version: 2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1)
+        version: 2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2)
       vite-plugin-webfont-dl:
         specifier: ^3.9.4
-        version: 3.11.0(vite@5.4.19(@types/node@20.19.8))
+        version: 3.11.1(vite@5.4.19(@types/node@20.19.8))
       vue-tsc:
         specifier: ^2.0.19
         version: 2.2.12(typescript@5.8.3)
@@ -1592,8 +1592,8 @@ packages:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
 
-  cacheable@1.10.1:
-    resolution: {integrity: sha512-Fa2BZY0CS9F0PFc/6aVA6tgpOdw+hmv9dkZOlHXII5v5Hw+meJBIWDcPrG9q/dXxGcNbym5t77fzmawrBQfTmQ==}
+  cacheable@1.10.2:
+    resolution: {integrity: sha512-hMkETCRV4hwBAvjQY1/xGw15tlPj+7cM4d5HOlYJJFftLQVRCboVX+mT6AJ6eL0fsqUhSUwDiF+pgfTR2r2Hxg==}
 
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
@@ -2250,8 +2250,8 @@ packages:
     resolution: {integrity: sha512-gIXjKqtFuWEgzFRJA9WCQeSJLZDjgJUOMCMzxtvFq/37KojM1BFGufqsCy0r4qSQmYLsZYMeyRqzIWOMup03sw==}
     engines: {node: '>=14'}
 
-  form-data@4.0.3:
-    resolution: {integrity: sha512-qsITQPfmvMOSAdeyZ+12I1c+CKSstAFAwu+97zrnWAbIr5u8wfsExUzCesVLC8NgHuRUqNN4Zy6UPWUTRGslcA==}
+  form-data@4.0.4:
+    resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
   fs-extra@10.1.0:
@@ -3529,8 +3529,8 @@ packages:
       vue: ^3.0.0
       vuetify: ^3.0.0
 
-  vite-plugin-webfont-dl@3.11.0:
-    resolution: {integrity: sha512-OMXdT7bmUnm/TasvHoICkyK2HCOwLuCVpdhWxMWrE67Uvr6SZ2mKy2I+p4WKxTjzR0e5juQCn1/HYLvAhdGeaQ==}
+  vite-plugin-webfont-dl@3.11.1:
+    resolution: {integrity: sha512-5eQaMn3mJ0qNnL64R6wZouh0I4zkvK8aS+GsoCDLY4WYfWCYvNpf6TyauxEsMlbwwfznkKjXTd1DNBGs4fKAhQ==}
     peerDependencies:
       vite: ^2 || ^3 || ^4 || ^5 || ^6 || ^7
 
@@ -3622,8 +3622,8 @@ packages:
       vue: ^3.3.0
       vuetify: ^3.3.0
 
-  vuetify@3.9.1:
-    resolution: {integrity: sha512-jmUFx655w2ClUgRXjAabiGR2hLEr0QNQClpOYVMPvqzqTPqA+UG95h1/8wHCtm5Q4ccIFwvDSSEwC/eOA6fC1g==}
+  vuetify@3.9.2:
+    resolution: {integrity: sha512-Pax7YCgbE5SArY8CDM0A9dTVHnG1oU79eIBA+FEEg3dDFV7bc+0AppJJLfG2+aoaBlJf2UH7tOCflJ/U23YU1Q==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
@@ -5290,11 +5290,11 @@ snapshots:
 
   '@vue/shared@3.5.17': {}
 
-  '@vuetify/loader-shared@2.1.0(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1)':
+  '@vuetify/loader-shared@2.1.0(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2)':
     dependencies:
       upath: 2.0.1
       vue: 3.5.17(typescript@5.8.3)
-      vuetify: 3.9.1(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
+      vuetify: 3.9.2(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
 
   '@vueuse/core@10.11.1(vue@3.5.17(typescript@5.8.3))':
     dependencies:
@@ -5376,7 +5376,7 @@ snapshots:
   axios@1.10.0:
     dependencies:
       follow-redirects: 1.15.9
-      form-data: 4.0.3
+      form-data: 4.0.4
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
@@ -5428,7 +5428,7 @@ snapshots:
 
   cac@6.7.14: {}
 
-  cacheable@1.10.1:
+  cacheable@1.10.2:
     dependencies:
       hookified: 1.10.0
       keyv: 5.3.4
@@ -6142,7 +6142,7 @@ snapshots:
 
   flat-cache@6.1.11:
     dependencies:
-      cacheable: 1.10.1
+      cacheable: 1.10.2
       flatted: 3.3.3
       hookified: 1.10.0
 
@@ -6179,7 +6179,7 @@ snapshots:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
 
-  form-data@4.0.3:
+  form-data@4.0.4:
     dependencies:
       asynckit: 0.4.0
       combined-stream: 1.0.8
@@ -7761,18 +7761,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-vuetify@2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1):
+  vite-plugin-vuetify@2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2):
     dependencies:
-      '@vuetify/loader-shared': 2.1.0(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1)
+      '@vuetify/loader-shared': 2.1.0(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2)
       debug: 4.4.1
       upath: 2.0.1
       vite: 5.4.19(@types/node@20.19.8)
       vue: 3.5.17(typescript@5.8.3)
-      vuetify: 3.9.1(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
+      vuetify: 3.9.2(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
     transitivePeerDependencies:
       - supports-color
 
-  vite-plugin-webfont-dl@3.11.0(vite@5.4.19(@types/node@20.19.8)):
+  vite-plugin-webfont-dl@3.11.1(vite@5.4.19(@types/node@20.19.8)):
     dependencies:
       axios: 1.10.0
       clean-css: 5.3.3
@@ -7841,19 +7841,19 @@ snapshots:
     optionalDependencies:
       typescript: 5.8.3
 
-  vuetify-sonner@0.3.21(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1):
+  vuetify-sonner@0.3.21(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2):
     dependencies:
       vue: 3.5.17(typescript@5.8.3)
       vue-component-type-helpers: 2.2.12
       vue-sonner: 1.3.2
-      vuetify: 3.9.1(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
+      vuetify: 3.9.2(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3))
 
-  vuetify@3.9.1(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3)):
+  vuetify@3.9.2(typescript@5.8.3)(vite-plugin-vuetify@2.1.1)(vue@3.5.17(typescript@5.8.3)):
     dependencies:
       vue: 3.5.17(typescript@5.8.3)
     optionalDependencies:
       typescript: 5.8.3
-      vite-plugin-vuetify: 2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.1)
+      vite-plugin-vuetify: 2.1.1(vite@5.4.19(@types/node@20.19.8))(vue@3.5.17(typescript@5.8.3))(vuetify@3.9.2)
 
   walk-up-path@3.0.1: {}
 
