@@ -97,8 +97,8 @@ importers:
         specifier: ^0.17.6
         version: 0.17.8(@vueuse/core@10.11.1(vue@3.5.20(typescript@5.9.2)))(rollup@4.48.0)
       unplugin-vue-components:
-        specifier: ^0.27.0
-        version: 0.27.5(@babel/parser@7.28.3)(rollup@4.48.0)(vue@3.5.20(typescript@5.9.2))
+        specifier: ^0.28.0
+        version: 0.28.0(@babel/parser@7.28.3)(rollup@4.48.0)(vue@3.5.20(typescript@5.9.2))
       unplugin-vue-macros:
         specifier: ^2.9.3
         version: 2.14.5(@vueuse/core@10.11.1(vue@3.5.20(typescript@5.9.2)))(esbuild@0.21.5)(rollup@4.48.0)(typescript@5.9.2)(vite@5.4.19(@types/node@20.19.11))(vue-tsc@2.2.12(typescript@5.9.2))(vue@3.5.20(typescript@5.9.2))
@@ -574,6 +574,9 @@ packages:
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
+
+  '@jridgewell/remapping@2.3.5':
+    resolution: {integrity: sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==}
 
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
@@ -3454,8 +3457,8 @@ packages:
       webpack:
         optional: true
 
-  unplugin-vue-components@0.27.5:
-    resolution: {integrity: sha512-m9j4goBeNwXyNN8oZHHxvIIYiG8FQ9UfmKWeNllpDvhU7btKNNELGPt+o3mckQKuPwrE7e0PvCsx+IWuDSD9Vg==}
+  unplugin-vue-components@0.28.0:
+    resolution: {integrity: sha512-jiTGtJ3JsRFBjgvyilfrX7yUoGKScFgbdNw+6p6kEXU+Spf/rhxzgvdfuMcvhCcLmflB/dY3pGQshYBVGOUx7Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -3480,6 +3483,10 @@ packages:
   unplugin@1.16.1:
     resolution: {integrity: sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==}
     engines: {node: '>=14.0.0'}
+
+  unplugin@2.3.8:
+    resolution: {integrity: sha512-lkaSIlxceytPyt9yfb1h7L9jDFqwMqvUZeGsKB7Z8QrvAO3xZv2S+xMQQYzxk0AGJHcQhbcvhKEstrMy99jnuQ==}
+    engines: {node: '>=18.12.0'}
 
   unrs-resolver@1.11.1:
     resolution: {integrity: sha512-bSjt9pjaEBnNiGgc9rUiHGKv5l4/TGzDmYw3RhnkJGtLhbnnA/5qJj7x3dNDCRx/PJxu774LlH8lCOlB4hEfKg==}
@@ -4208,6 +4215,11 @@ snapshots:
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/trace-mapping': 0.3.30
+
+  '@jridgewell/remapping@2.3.5':
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.30
 
   '@jridgewell/resolve-uri@3.1.2': {}
@@ -7677,7 +7689,7 @@ snapshots:
       unplugin: 1.16.1
       vite: 5.4.19(@types/node@20.19.11)
 
-  unplugin-vue-components@0.27.5(@babel/parser@7.28.3)(rollup@4.48.0)(vue@3.5.20(typescript@5.9.2)):
+  unplugin-vue-components@0.28.0(@babel/parser@7.28.3)(rollup@4.48.0)(vue@3.5.20(typescript@5.9.2)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.2.0(rollup@4.48.0)
@@ -7688,7 +7700,7 @@ snapshots:
       magic-string: 0.30.18
       minimatch: 9.0.5
       mlly: 1.8.0
-      unplugin: 1.16.1
+      unplugin: 2.3.8
       vue: 3.5.20(typescript@5.9.2)
     optionalDependencies:
       '@babel/parser': 7.28.3
@@ -7753,6 +7765,13 @@ snapshots:
   unplugin@1.16.1:
     dependencies:
       acorn: 8.15.0
+      webpack-virtual-modules: 0.6.2
+
+  unplugin@2.3.8:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      acorn: 8.15.0
+      picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
   unrs-resolver@1.11.1:
