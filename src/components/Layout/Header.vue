@@ -25,7 +25,7 @@ function switchLang(name: keyof typeof locales) {
 			<VList>
 				<VListItem
 					v-for="(name, key) in locales"
-					:key="key"
+					:key
 					:value="key"
 					@click="switchLang(key)"
 				>
