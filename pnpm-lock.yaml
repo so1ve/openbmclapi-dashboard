@@ -94,8 +94,8 @@ importers:
         specifier: ^0.60.4
         version: 0.60.4(postcss@8.5.6)(rollup@4.52.4)(vite@5.4.20(@types/node@20.19.22))
       unplugin-auto-import:
-        specifier: ^0.17.6
-        version: 0.17.8(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(rollup@4.52.4)
+        specifier: ^0.19.0
+        version: 0.19.0(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(rollup@4.52.4)
       unplugin-vue-components:
         specifier: ^0.27.0
         version: 0.27.5(@babel/parser@7.28.4)(rollup@4.52.4)(vue@3.5.22(typescript@5.9.3))
@@ -3445,8 +3445,8 @@ packages:
       vite:
         optional: true
 
-  unplugin-auto-import@0.17.8:
-    resolution: {integrity: sha512-CHryj6HzJ+n4ASjzwHruD8arhbdl+UXvhuAIlHDs15Y/IMecG3wrf7FVg4pVH/DIysbq/n0phIjNHAjl7TG7Iw==}
+  unplugin-auto-import@0.19.0:
+    resolution: {integrity: sha512-W97gTDEWu/L1EcKCXY5Ni8bsMW1E9kv12wYQv3mYpd7zcFctXYlLKsqeva6sbCQbzS8t9AG/XdU5/WkEJKPlFw==}
     engines: {node: '>=14'}
     peerDependencies:
       '@nuxt/kit': ^3.2.2
@@ -3510,6 +3510,10 @@ packages:
   unplugin@1.16.1:
     resolution: {integrity: sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==}
     engines: {node: '>=14.0.0'}
+
+  unplugin@2.3.11:
+    resolution: {integrity: sha512-5uKD0nqiYVzlmCRs01Fhs2BdkEgBS3SAVP6ndrBsuK42iC2+JHyxM05Rm9G8+5mkmRtzMZGY8Ct5+mliZxU/Ww==}
+    engines: {node: '>=18.12.0'}
 
   unrs-resolver@1.11.1:
     resolution: {integrity: sha512-bSjt9pjaEBnNiGgc9rUiHGKv5l4/TGzDmYw3RhnkJGtLhbnnA/5qJj7x3dNDCRx/PJxu774LlH8lCOlB4hEfKg==}
@@ -7736,16 +7740,15 @@ snapshots:
       - rollup
       - supports-color
 
-  unplugin-auto-import@0.17.8(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(rollup@4.52.4):
+  unplugin-auto-import@0.19.0(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(rollup@4.52.4):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.3.0(rollup@4.52.4)
-      fast-glob: 3.3.3
       local-pkg: 0.5.1
       magic-string: 0.30.19
-      minimatch: 9.0.5
+      picomatch: 4.0.3
       unimport: 3.14.6(rollup@4.52.4)
-      unplugin: 1.16.1
+      unplugin: 2.3.11
     optionalDependencies:
       '@vueuse/core': 10.11.1(vue@3.5.22(typescript@5.9.3))
     transitivePeerDependencies:
@@ -7834,6 +7837,13 @@ snapshots:
   unplugin@1.16.1:
     dependencies:
       acorn: 8.15.0
+      webpack-virtual-modules: 0.6.2
+
+  unplugin@2.3.11:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      acorn: 8.15.0
+      picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
   unrs-resolver@1.11.1:
