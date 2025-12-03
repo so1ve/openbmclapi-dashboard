@@ -45,8 +45,8 @@ importers:
         specifier: ^3.6.8
         version: 3.10.5(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.22(typescript@5.9.3))
       vuetify-sonner:
-        specifier: ^0.3.19
-        version: 0.3.21(vue@3.5.22(typescript@5.9.3))(vuetify@3.10.5)
+        specifier: ^0.4.0
+        version: 0.4.2(vue@3.5.22(typescript@5.9.3))(vuetify@3.10.5)
     devDependencies:
       '@iconify-json/carbon':
         specifier: ^1.1.34
@@ -3629,8 +3629,8 @@ packages:
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
 
-  vue-component-type-helpers@2.2.12:
-    resolution: {integrity: sha512-YbGqHZ5/eW4SnkPNR44mKVc6ZKQoRs/Rux1sxC6rdwXb4qpbOSYfDr9DsTHolOTGmIKgM9j141mZbBeg05R1pw==}
+  vue-component-type-helpers@3.1.5:
+    resolution: {integrity: sha512-7V3yJuNWW7/1jxCcI1CswnpDsvs02Qcx/N43LkV+ZqhLj2PKj50slUflHAroNkN4UWiYfzMUUUXiNuv9khmSpQ==}
 
   vue-demi@0.14.10:
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
@@ -3660,8 +3660,19 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
-  vue-sonner@1.3.2:
-    resolution: {integrity: sha512-UbZ48E9VIya3ToiRHAZUbodKute/z/M1iT8/3fU8zEbwBRE11AKuHikssv18LMk2gTTr6eMQT4qf6JoLHWuj/A==}
+  vue-sonner@2.0.9:
+    resolution: {integrity: sha512-i6BokNlNDL93fpzNxN/LZSn6D6MzlO+i3qXt6iVZne3x1k7R46d5HlFB4P8tYydhgqOrRbIZEsnRd3kG7qGXyw==}
+    peerDependencies:
+      '@nuxt/kit': ^4.0.3
+      '@nuxt/schema': ^4.0.3
+      nuxt: ^4.0.3
+    peerDependenciesMeta:
+      '@nuxt/kit':
+        optional: true
+      '@nuxt/schema':
+        optional: true
+      nuxt:
+        optional: true
 
   vue-tsc@2.2.12:
     resolution: {integrity: sha512-P7OP77b2h/Pmk+lZdJ0YWs+5tJ6J2+uOQPo7tlBnY44QqQSPYvS0qVT4wqDJgwrZaLe47etJLLQRFia71GYITw==}
@@ -3677,8 +3688,8 @@ packages:
       typescript:
         optional: true
 
-  vuetify-sonner@0.3.21:
-    resolution: {integrity: sha512-sAAPReHNqZf9ish2JmFYDbp0E8UQLLqcTJ1Cvm6u75Lom0/Yg9NQf8CU32yYlnQq6pYpk0rGJNZADPYmyT3/vg==}
+  vuetify-sonner@0.4.2:
+    resolution: {integrity: sha512-14VGhi1IQGVJ2sUvy2qIMZaiapMtr0zzKKrzSUVPLaPU6VDh0heFVDD1HRBG5JgHjQl8qZjsPWiqd64ZZysx8A==}
     peerDependencies:
       vue: ^3.3.0
       vuetify: ^3.3.0
@@ -7979,7 +7990,7 @@ snapshots:
 
   vscode-uri@3.1.0: {}
 
-  vue-component-type-helpers@2.2.12: {}
+  vue-component-type-helpers@3.1.5: {}
 
   vue-demi@0.14.10(vue@3.5.22(typescript@5.9.3)):
     dependencies:
@@ -8009,7 +8020,7 @@ snapshots:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.22(typescript@5.9.3)
 
-  vue-sonner@1.3.2: {}
+  vue-sonner@2.0.9: {}
 
   vue-tsc@2.2.12(typescript@5.9.3):
     dependencies:
@@ -8027,12 +8038,16 @@ snapshots:
     optionalDependencies:
       typescript: 5.9.3
 
-  vuetify-sonner@0.3.21(vue@3.5.22(typescript@5.9.3))(vuetify@3.10.5):
+  vuetify-sonner@0.4.2(vue@3.5.22(typescript@5.9.3))(vuetify@3.10.5):
     dependencies:
       vue: 3.5.22(typescript@5.9.3)
-      vue-component-type-helpers: 2.2.12
-      vue-sonner: 1.3.2
+      vue-component-type-helpers: 3.1.5
+      vue-sonner: 2.0.9
       vuetify: 3.10.5(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.22(typescript@5.9.3))
+    transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@nuxt/schema'
+      - nuxt
 
   vuetify@3.10.5(typescript@5.9.3)(vite-plugin-vuetify@2.1.2)(vue@3.5.22(typescript@5.9.3)):
     dependencies:
