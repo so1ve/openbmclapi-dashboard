@@ -97,8 +97,8 @@ importers:
         specifier: ^0.17.6
         version: 0.17.8(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(rollup@4.52.4)
       unplugin-vue-components:
-        specifier: ^0.27.0
-        version: 0.27.5(@babel/parser@7.28.4)(rollup@4.52.4)(vue@3.5.22(typescript@5.9.3))
+        specifier: ^0.28.0
+        version: 0.28.0(@babel/parser@7.28.4)(rollup@4.52.4)(vue@3.5.22(typescript@5.9.3))
       unplugin-vue-macros:
         specifier: ^2.9.3
         version: 2.14.5(@vueuse/core@10.11.1(vue@3.5.22(typescript@5.9.3)))(esbuild@0.21.5)(rollup@4.52.4)(typescript@5.9.3)(vite@5.4.20(@types/node@20.19.22))(vue-tsc@2.2.12(typescript@5.9.3))(vue@3.5.22(typescript@5.9.3))
@@ -3484,8 +3484,8 @@ packages:
       webpack:
         optional: true
 
-  unplugin-vue-components@0.27.5:
-    resolution: {integrity: sha512-m9j4goBeNwXyNN8oZHHxvIIYiG8FQ9UfmKWeNllpDvhU7btKNNELGPt+o3mckQKuPwrE7e0PvCsx+IWuDSD9Vg==}
+  unplugin-vue-components@0.28.0:
+    resolution: {integrity: sha512-jiTGtJ3JsRFBjgvyilfrX7yUoGKScFgbdNw+6p6kEXU+Spf/rhxzgvdfuMcvhCcLmflB/dY3pGQshYBVGOUx7Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -3510,6 +3510,10 @@ packages:
   unplugin@1.16.1:
     resolution: {integrity: sha512-4/u/j4FrCKdi17jaxuJA0jClGxB1AvU2hw/IuayPc4ay1XGaJs/rbb4v5WKwAjNifjmXK9PIFyuPiaK8azyR9w==}
     engines: {node: '>=14.0.0'}
+
+  unplugin@2.3.11:
+    resolution: {integrity: sha512-5uKD0nqiYVzlmCRs01Fhs2BdkEgBS3SAVP6ndrBsuK42iC2+JHyxM05Rm9G8+5mkmRtzMZGY8Ct5+mliZxU/Ww==}
+    engines: {node: '>=18.12.0'}
 
   unrs-resolver@1.11.1:
     resolution: {integrity: sha512-bSjt9pjaEBnNiGgc9rUiHGKv5l4/TGzDmYw3RhnkJGtLhbnnA/5qJj7x3dNDCRx/PJxu774LlH8lCOlB4hEfKg==}
@@ -7758,7 +7762,7 @@ snapshots:
       unplugin: 1.16.1
       vite: 5.4.20(@types/node@20.19.22)
 
-  unplugin-vue-components@0.27.5(@babel/parser@7.28.4)(rollup@4.52.4)(vue@3.5.22(typescript@5.9.3)):
+  unplugin-vue-components@0.28.0(@babel/parser@7.28.4)(rollup@4.52.4)(vue@3.5.22(typescript@5.9.3)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.3.0(rollup@4.52.4)
@@ -7769,7 +7773,7 @@ snapshots:
       magic-string: 0.30.19
       minimatch: 9.0.5
       mlly: 1.8.0
-      unplugin: 1.16.1
+      unplugin: 2.3.11
       vue: 3.5.22(typescript@5.9.3)
     optionalDependencies:
       '@babel/parser': 7.28.4
@@ -7834,6 +7838,13 @@ snapshots:
   unplugin@1.16.1:
     dependencies:
       acorn: 8.15.0
+      webpack-virtual-modules: 0.6.2
+
+  unplugin@2.3.11:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      acorn: 8.15.0
+      picomatch: 4.0.3
       webpack-virtual-modules: 0.6.2
 
   unrs-resolver@1.11.1:
